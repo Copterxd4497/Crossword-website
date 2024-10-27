@@ -9,6 +9,10 @@
     height: 600px;
 }
 
+#mainbtn {
+    margin-bottom: 60px;
+}
+
 .vertical-decoration {
     top: 12%;
     width: 24px;
@@ -152,34 +156,36 @@
 .headersecond {
     background: url("../images3/header-background.jpg") center center no-repeat;
     background-size: cover;
-  }
-  
-  .modal-dialog {
+}
+
+.modal-dialog {
     max-width: 1040px;
-  }
-  
-  .download {
+}
+
+.download {
     background: url("../images3/download-background.jpg") center center no-repeat;
     background-size: cover;
-  }
-  
-  .map iframe {
+}
+
+.map iframe {
     left: 0;
     top: 0;
     height: 400px;
     width: 100%;
     border: none;
-  }
-  
-  @media (max-width: 1000px) {
+}
+
+@media (max-width: 1000px) {
     .navbar {
-      background: var(--bs-dark);
+        background: var(--bs-dark);
     }
+
     .hero .image-container {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
+
     .hero .text-container {
-      text-align: center;
+        text-align: center;
     }
-  }
+}

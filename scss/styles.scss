@@ -7,6 +7,11 @@
         url('../images2/top-view-alphabet-text-with-scrabble-letters-black-backdrop.jpg') left center no-repeat;
     background-size: cover;
     height: 600px;
+    margin-bottom: 30px;
+}
+
+#mainbtn {
+    margin-bottom: 60px;
 }
 
 .vertical-decoration {
@@ -128,7 +133,16 @@
     margin-top: 130px;
 }
 
+@media (max-width: 576px) {
+    .card-img-top.img-fluid {
+        width: 300px;
+        height: 100px;
+    }
+}
+
 @media (max-width: 992px) {
+
+
     .xl-text {
         font-size: 50px;
     }
@@ -136,7 +150,7 @@
     .header {
         text-align: center;
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
-            url('../images/header-background.jpg') center center no-repeat;
+            url('../images2/top-view-alphabet-text-with-scrabble-letters-black-backdrop.jpg') center center no-repeat;
     }
 
     .video-points {
@@ -152,34 +166,36 @@
 .headersecond {
     background: url("../images3/header-background.jpg") center center no-repeat;
     background-size: cover;
-  }
-  
-  .modal-dialog {
+}
+
+.modal-dialog {
     max-width: 1040px;
-  }
-  
-  .download {
+}
+
+.download {
     background: url("../images3/download-background.jpg") center center no-repeat;
     background-size: cover;
-  }
-  
-  .map iframe {
+}
+
+.map iframe {
     left: 0;
     top: 0;
     height: 400px;
     width: 100%;
     border: none;
-  }
-  
-  @media (max-width: 1000px) {
+}
+
+@media (max-width: 1000px) {
     .navbar {
-      background: var(--bs-dark);
+        background: var(--bs-dark);
     }
+
     .hero .image-container {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
+
     .hero .text-container {
-      text-align: center;
+        text-align: center;
     }
-  }
+}

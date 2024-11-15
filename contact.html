@@ -10,32 +10,52 @@
   <link rel="stylesheet" href="css/font-awesome.css" />
   <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="images/favicon.png" />
+  <link rel="icon" href="images2/icons8-crossword-64.png" />
   <title>Crossword</title>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container">
-      <a href="index.html" class="navbar-brand">
-        <img src="images3/logo.png" alt="" width="225" />
+      <a class="navbar-brand" href="#">
+        <img class="mt-3" src="images/logo.svg" alt="" width="300" />
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link fw-semibold">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#details" class="nav-link fw-semibold">Details</a>
+            <a class="nav-link" href="index.html#Activities">Activities</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link btn btn-outline-light fw-semibold px-4 mx-4">Contact</a>
+            <a class="nav-link" href="Conditions.html">Conditions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#expertise">Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
+        <span class="nav-item">
+          <span class="fa-stack">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="https://twitter.com" target="_blank">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-twitter fa-stack-1x text-white"></i>
+            </a>
+          </span>
+        </span>
       </div>
     </div>
   </nav>
@@ -116,52 +136,62 @@
     </div>
   </section>
 
-  <!-- Social -->
-  <section class="social text-bg-dark py-6 overflow-hidden">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 offset-md-3 text-center fs-4">
-          <p>
-            Stay connected and join our vibrant community. For any inquiries
-            or assistance, feel free to reach out to us
-          </p>
-          <div class="social-icons d-flex justify-content-center gap-4">
-            <i class="fab fa-facebook fa-2x"></i>
-            <i class="fab fa-twitter fa-2x"></i>
-            <i class="fab fa-instagram fa-2x"></i>
-            <i class="fab fa-linkedin fa-2x"></i>
-            <i class="fab fa-pinterest fa-2x"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Footer -->
-  <footer class="border-top border-primary bg-dark text-white py-4">
+  <footer class="footer bg-secondary py-6">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link link-light">Home</a>
+        <div class="col-md-4 my-3">
+          <h6>About Vera</h6>
+          <p>
+            Vera is a dedicated software solutions company that aims to provide
+            exceptional services to its clients. We are committed to delivering
+            innovative and customized solutions that meet your specific business
+            needs.
+          </p>
+        </div>
+        <div class="col-md-4 my-3">
+          <h6>Links</h6>
+          <ul class="list-unstyled">
+            <li>
+              Important: <a href="#">Terms & Conditions</a>,
+              <a href="privacy.html">Privacy Policy</a>
             </li>
-            <li class="nav-item">
-              <a href="#details" class="nav-link link-light">Details</a>
+            <li>
+              Useful: <a href="index.html#expertise">Expertise</a>,
+              <a href="index.html#pricing">Pricing</a>,
+              <a href="index.html#newsletter">Newsletter</a>
             </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link link-light">Contact</a>
+            <li>
+              Menu: <a href="index.html">Home</a>, <a href="index.html#details">Details</a>,
+              <a href="index.html#solutions">Solutions</a>,
+              <a href="index.html#projects">Projects</a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <p class="text-end d-none d-md-block">
-            Copyright &copy; Blog Mastery 2023
+        <div class="col-md-4 my-3">
+          <div class="mb-4">
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-facebook fa-3x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-twitter fa-3x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-instagram fa-3x text-light mx-2"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-pinterest fa-3x text-light mx-2"></i>
+            </a>
+          </div>
+          <p>
+            We would love to hear from you
+            <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a>
           </p>
         </div>
       </div>
     </div>
   </footer>
+
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>

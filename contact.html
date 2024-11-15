@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img class="mt-3" src="images/logo.svg" alt="" width="300" />
+        <img class="mt-3 me-4" id="Crosswordlogo" src="Crossword images/reallogo.png" alt="" width="600" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,38 +27,39 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link fw-bold fs-5" aria-current="page" href="index.html">หน้าหลัก</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#Activities">Activities</a>
+            <a class="nav-link fw-bold fs-5" href="index.html#Activities">กิจกรรม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Conditions.html">Conditions</a>
+            <a class="nav-link fw-bold fs-5" href="Conditions.html">วิธีการเล่น</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#expertise">Expertise</a>
+            <a class="nav-link fw-bold fs-5" href="index.html#expertise">สมาชิกทีม</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link fw-bold fs-5" href="contact.html">ติดต่อ</a>
           </li>
         </ul>
         <span class="nav-item">
           <span class="fa-stack">
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=61557169208917" target="_blank">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
             </a>
           </span>
           <span class="fa-stack">
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://www.kanlayanee.ac.th/home/" target="_blank">
               <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              <i class="fab fa-google fa-stack-1x text-white"></i>
             </a>
           </span>
         </span>
       </div>
     </div>
   </nav>
+
 
   <!-- Header -->
   <header class="headersecond">
@@ -67,7 +68,7 @@
       <div class="container-xl">
         <div class="row">
           <div class="col-12">
-            <h1>Contact Information</h1>
+            <h1 class="fw-bold fs-1">ติดต่อข้อมูลเพิ่มเติม</h1>
           </div>
         </div>
       </div>
@@ -77,7 +78,7 @@
       <defs>
         <style>
           .cls-1 {
-            fill: #006eff;
+            fill: #000000;
           }
         </style>
       </defs>
@@ -95,17 +96,23 @@
         <div class="col-12">
           <form action="https://formspree.io/f/mwpkprwv" method="POST">
             <div class="mb-3">
-              <input type="text" class="form-control form-control-lg" name="name" placeholder="Name" />
+              <input type="text" class="form-control form-control-lg" name="name" placeholder="ชื่อจริง">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="Nickname" placeholder="ชื่อเล่น">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control form-control-lg" name="Class" placeholder="ห้อง">
             </div>
             <div class="mb-3">
               <input type="hidden" name="email" value="copterpanyphon@gmail.com">
             </div>
             <div class="mb-3">
-              <textarea class="form-control form-control-lg" name="message" rows="6" placeholder="Message"></textarea>
+              <textarea class="form-control form-control-lg" name="message" rows="6" placeholder="ข้อความ"></textarea>
             </div>
             <div class="d-grid">
               <button type="submit" class="btn btn-primary text-white mt-3">
-                Submit
+                ส่งข้อความ
               </button>
             </div>
           </form>
@@ -119,17 +126,15 @@
     <div class="container">
       <div class="row">
         <div class="col-10 offset-1">
-          <h3>Our Location</h3>
+          <h3 class="fw-bold">สถาoที่ของเรา</h3>
           <p class="mb-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-            deserunt recusandae iure officiis quia saepe at velit ad eum
-            tenetur magnam, nihil voluptate sit totam ut reiciendis iusto
-            harum doloribus.
+            จังหวัดนครศรีธรรมราช อำเภอเมือง โรงเรียนกัลยาณีศรีธรรมราช อาคาร:5(ตึกฟ้า) ชั้น:2
           </p>
           <div class="map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.5303553091994!2d-0.14076024298621118!3d51.51210217963597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d502268421%3A0x6a7d62889992f993!2sRegent+St%2C+Soho%2C+London+W1B+5TH%2C+UK!5e0!3m2!1sen!2sro!4v1476174541049"
-              allowfullscreen></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.710777517726!2d99.95903697783217!3d8.430037469974499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3053013a365243af%3A0xaaaabb922848f2d7!2sKanlayanee%20Si%20Thammarat%20School!5e0!3m2!1sen!2sus!4v1731699190747!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
